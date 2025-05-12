@@ -1,17 +1,11 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
 
-const Navbar = () => {
+const Footer = () => {
   return (
-    <nav className="navbar">
-      <h1>Minha Loja</h1>
-      <ul>
-        <li><Link to="/">Início</Link></li>
-        <li><Link to="/produtos">Produtos</Link></li>
-        <li><Link to="/carrinho">Carrinho</Link></li>
-        <li><Link to="/sobre">Sobre</Link></li>
-      </ul>
-    </nav>
+    <footer className="footer">
+      <p>&copy; 2025 Minha Loja. Todos os direitos reservados.</p>
+    </footer>
   );
 };
 
-export default Navbar;
+export default Footer;

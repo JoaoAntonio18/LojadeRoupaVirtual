@@ -1,14 +1,12 @@
-export default Home;
-
-// Arquivo: pages/Products.jsx
-// Página que futuramente listará todos os produtos disponíveis.
 import React from 'react';
 
-const Products = () => {
+const Home = () => {
   return (
-    <section className="products">
-      <h2>Todos os Produtos</h2>
-      <p>Catálogo completo de roupas disponíveis.</p>
+    <section className="home">
+      <h2>Bem-vindo à Minha Loja!</h2>
+      <p>Confira nossas últimas novidades e promoções.</p>
     </section>
   );
 };
+
+export default Home;
