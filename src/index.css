@@ -33,3 +33,11 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
 }
+
+.card{
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 15rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
